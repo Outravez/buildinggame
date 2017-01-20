@@ -178,7 +178,7 @@ public class FloorMenu extends Gui {
 		
 		closeMenu = new ItemStack(Material.BOOK);
 		ItemMeta closeMenuMeta = closeMenu.getItemMeta();
-		closeMenuMeta.setDisplayName(ChatColor.GREEN + "Close menu");
+		closeMenuMeta.setDisplayName(ChatColor.GREEN + "Close menus");
 		closeMenu.setItemMeta(closeMenuMeta);
 	}
 }
